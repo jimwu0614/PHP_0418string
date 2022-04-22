@@ -22,8 +22,9 @@
 <?php
 $password="aaddw1123";
 // str_replace();
-$password=str_replace("a","*",$password);
+$password=str_replace("a","",$password);
 $password=str_replace("d","*",$password);
+
 // $strlen=mb_strlen($password);
 // $password=str_repeat("*",$strlen);
 echo $password;
