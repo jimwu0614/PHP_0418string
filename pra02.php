@@ -19,6 +19,11 @@
     echo"<pre>";
     print_r($array);
     echo"</pre>";
+
+
+$newstr=implode(" ",$array);
+    echo $newstr
+
     ?>
 </body>
 </html>
