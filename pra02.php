@@ -21,7 +21,8 @@
     echo"</pre>";
 
 
-$newstr=implode(" ",$array);
+// $newstr=implode(" ",$array);
+$newstr=join(" ",$array);
     echo $newstr
 
     ?>
