@@ -13,6 +13,21 @@
         <li>substr() - 用在英文系統單字元字集</li>
         <li>mb_substr() - 用在多文系統雙字元字集(multiple byte)</li>
     </ul>
-    <h4></h4>
+    <h1>字串取代</h1>
+    <article>
+        <h3>字串取代</h3>
+        <div>將”aaddw1123”改成”*********”</div>
+
+    </article>
+<?php
+$password="aaddw1123";
+// str_replace();
+$password=str_replace("a","*",$password);
+$password=str_replace("d","*",$password);
+// $strlen=mb_strlen($password);
+// $password=str_repeat("*",$strlen);
+echo $password;
+?>
+
 </body>
 </html>
