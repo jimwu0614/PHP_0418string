@@ -7,6 +7,7 @@
     <title>PHP字串函式介紹</title>
 </head>
 <body>
+    <a href="index.html">回索引</a>
     <H1>常用字串函式</H1>
     <h3>substr() / mb_substr()</h3>
     <ul>
@@ -29,7 +30,6 @@ $password=str_replace("d","*",$password);
 // $password=str_repeat("*",$strlen);
 echo $password;
 ?>
-
 
 </body>
 </html>

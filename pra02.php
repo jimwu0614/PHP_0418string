@@ -7,9 +7,10 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>字串分割</h1>
+<a href="index.html">回索引</a>
+    <h1>字串分割&組合</h1>
     <article>
-        <h3>字串分割</h3>
+        <h3>字串分割&組合</h3>
         <div>將”this,is,a,book”依”,”切割後成為陣列</div>
     </article>
     <?php
@@ -19,6 +20,7 @@
     echo"<pre>";
     print_r($array);
     echo"</pre>";
+
 
 
 // $newstr=implode(" ",$array);

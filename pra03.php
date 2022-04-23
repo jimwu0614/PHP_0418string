@@ -8,6 +8,7 @@
     <title>Document</title>
 </head>
 <body>
+<a href="index.html">回索引</a>
     <h1>子字串的應用</h1>
     <article>
         <h3>子字串的應用</h3>
